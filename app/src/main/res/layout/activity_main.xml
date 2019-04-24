@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_bind"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/bind"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btn_unbind"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/unbind"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btn_Status"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/Staus"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
